@@ -1,7 +1,0 @@
-streamlit
-pandas
-langchain
-langchain-experimental
-langchain-openai
-python-dotenv
-tabulate
