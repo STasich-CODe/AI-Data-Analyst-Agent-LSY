@@ -38,13 +38,7 @@
 
 ## 🚀 Инструкция по установке
 
-### 1. Клонирование репозитория
-
-```bash
-git clone [https://github.com/Loliimilk/Mini-LLM-analytics](https://github.com/STasich-CODe/AI-Data-Analyst-Agent-LSY/edit/main/README.md)
-cd Mini-LLM-analytics
-```
-### 2. Подготовка окружения
+### 1. Подготовка окружения
 Убедитесь, что у вас установлен Python 3.13. Склонируйте репозиторий и создайте виртуальное окружение:
 
 ```bash
@@ -52,17 +46,17 @@ python -m venv venv
 venv\Scripts\activate  # Для Windows
 ```
 
-### 3. Установка зависимостей
+### 2. Установка зависимостей
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Конфигурация
+### 3. Конфигурация
 Создайте в корневой папке файл .env и добавьте ваши ключи:
 ```
 OPENAI_API_KEY="ваш_ключ_proxyapi"
 OPENAI_BASE_URL="[https://api.proxyapi.ru/openai/v1](https://api.proxyapi.ru/openai/v1)"
 ```
-### 5. Запуск
+### 4. Запуск
 ```bash
 streamlit run app.py
 ```
